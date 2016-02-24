@@ -1,0 +1,28 @@
+{
+  "author": "fish <zhengxinlin@gmail.com> (https://github.com/fishbar)",
+  "name": "cube-react",
+  "description": "the react processor for cube",
+  "version": "2.0.0",
+  "homepage": "https://github.com/node-cube/cube-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-cube/cube-react"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -r jscoverage --coverage 70,80,95 -R spec test"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "babel-core": "~6.3.26",
+    "babel-plugin-transform-react-jsx": "^6.3.13"
+  },
+  "devDependencies": {
+    "jscoverage": "0.5.x",
+    "mocha": "1.20.1",
+    "expect.js": "0.3.1"
+  },
+  "optionalDependencies": {}
+}
